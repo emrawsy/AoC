@@ -7,7 +7,7 @@ object Day1 extends App {
 
   val input = txt.split("\n").toList
 
-  def parse(value: String): Int = value match {
+  def parseNumbers(value: String): Int = value match {
     case "one" => 1
     case "two" => 2
     case "three" => 3
@@ -19,7 +19,7 @@ object Day1 extends App {
     case "nine" => 9
     case d => d.charAt(0) - '0'
   }
-  def firstDigit(line: String, regex: Regex): Option[Int] = regex.findFirstIn(line).map(parse)
+  def firstDigit(line: String, regex: Regex): Option[Int] = regex.findFirstIn(line).map(parseNumbers)
   def lastDigit(line: String, regex: Regex):Int = line.indices.map(line.substring).flatMap(firstDigit(_, regex)).last
   def calibrationValue(line: String, regex: Regex): Int = 10 * firstDigit(line, regex).get + lastDigit(line, regex)
 

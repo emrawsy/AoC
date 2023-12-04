@@ -1,0 +1,11 @@
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(Day1Spec, org.scalatest.tools.Framework$$anon$1@6560c1a0, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mDay1Spec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mnumbersOnly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Should give correct total when given input[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 255 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 1[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 1, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 1, failed 0, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAll tests passed.[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mPassed tests:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Day1Spec[0m
